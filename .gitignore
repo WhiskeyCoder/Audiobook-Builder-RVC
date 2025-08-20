@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+
+# Cache and temporary files
+cache/
+chunks/
+temp/
+tmp/
+
+# Output directories
+audiobooks/
+output/
+
+# Books (don't commit copyrighted content)
+books_to_convert/*.pdf
+books_to_convert/*.epub
+books_to_convert/*.docx
+books_to_convert/*.doc
+books_to_convert/*.txt
+!books_to_convert/sample.txt
+
+# Model files (large files, don't commit)
+*.pth
+*.index
+models/
+
+# Audio files
+*.wav
+*.mp3
+*.m4a
+*.flac
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Configuration with sensitive paths
+config.py
+local_config.py
+
+# Backup files
+*.bak
+*.backup
+
+# Test files
+test_output/
+test_books/
